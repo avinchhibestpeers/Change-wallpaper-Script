@@ -11,20 +11,24 @@ Change Wallpaper after certain period of time in ubuntu.
 ### 1. Add directory path in script
 - Find `img_dir_path` variable in script. Add *absolute* path of directory containing  wallpapers.
 
+  ![alt text](imgs/img_path.png "Adding path screen shot")
+
 ### 2. Setup Cron job
 - Run following command this will open code editor. If ask for choosing code editor choose `nano`.
-```
-crontab -e
-```
-Add any one of following code to change wallpaper on regular interval.
-**For 1 min interval**
-```
-* * * * * /absolute/path/to/chg_wallpaper_script_v1.sh >> absolute/path/to/cron_logs.log 2>&1
-```
-**For n min interval**
-```
-*/n * * * * /absolute/path/to/chg_wallpaper_script_v1.sh >> absolute/path/to/cron_logs.log 2>&1
-```
+  ```
+  crontab -e
+  ```
+  Add any one of following code to change wallpaper on regular interval.
+  **For 1 min interval**
+  ```
+  * * * * * /absolute/path/to/chg_wallpaper_script_v1.sh >> absolute/path/to/cron_logs.log 2>&1
+  ```
+  ![alt text](imgs/cron_command.png "Cron command 1 min interval")
+
+  **For n min interval**
+  ```
+  */n * * * * /absolute/path/to/chg_wallpaper_script_v1.sh >> absolute/path/to/cron_logs.log 2>&1
+  ```
 
 PS: You can View logs in `cron_log.log`, if something went wrong.
 
