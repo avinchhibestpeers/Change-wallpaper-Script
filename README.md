@@ -1,5 +1,8 @@
 # Change-wallpaper-Script
-Change Wallpaper after certain period of time in ubuntu.
+
+Change Wallpaper automatically after certain period of time in ubuntu.
+
+
 ![til](imgs/demo.gif)
 
 **Note** 
