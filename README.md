@@ -1,5 +1,6 @@
 # Change-wallpaper-Script
 Change Wallpaper after certain period of time in ubuntu.
+![til](imgs/demo.gif)
 
 **Note** 
 - This only works for Gnome-desktop with Ubuntu.
